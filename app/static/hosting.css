@@ -1,0 +1,1 @@
+.account-controls{display:flex;align-items:center;gap:12px}[hidden]{display:none!important}@media(max-width:600px){.account-controls{gap:6px}.account-controls .note{font-size:10px;max-width:135px;text-align:right}.account-controls button{padding:8px}.brand{font-size:22px}}

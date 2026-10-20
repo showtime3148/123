@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>교사 로그인 · GCE Study Desk</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/login.css">
+  <script defer src="/static/login.js"></script>
+</head>
+<body>
+  <main class="login-page">
+    <section class="panel login-panel">
+      <div class="eyebrow">GCE STUDY DESK</div>
+      <h1>함께 공부하는 공간</h1>
+      <p>관리자에게 받은 접속 비밀번호를 입력해 주세요.</p>
+      <form id="loginForm">
+        <label for="password">접속 비밀번호</label>
+        <input id="password" type="password" autocomplete="current-password" required maxlength="256" autofocus>
+        <button class="primary" id="loginButton" type="submit">들어가기 <span>↗</span></button>
+        <p id="loginError" role="alert"></p>
+      </form>
+      <p class="note">공용 컴퓨터에서는 사용 후 로그아웃하세요.</p>
+    </section>
+  </main>
+</body>
+</html>

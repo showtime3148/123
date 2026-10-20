@@ -1,0 +1,945 @@
+{
+  "entries": [
+    {
+      "id": "l1-1",
+      "level": 1,
+      "number": 1,
+      "question": "An educator wants to update the font of their entire Google Site. Which of these features would accomplish this?",
+      "options": [
+        "Preview",
+        "Pages",
+        "Settings",
+        "Theme"
+      ],
+      "original_answer": "Settings",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Theme",
+      "correction_reason": "사이트 전체 글꼴은 Theme에서 변경합니다."
+    },
+    {
+      "id": "l1-2",
+      "level": 1,
+      "number": 2,
+      "question": "Which Google Workspace for Education tool allows an educator to create an in-person or virtual engaging presentation?",
+      "options": [
+        "Sheets",
+        "Drive",
+        "Forms",
+        "Slides"
+      ],
+      "original_answer": "Slides",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Slides"
+    },
+    {
+      "id": "l1-3",
+      "level": 1,
+      "number": 3,
+      "question": "A school leader created a newsletter in Google Docs and wants to make it available to guardians in multiple languages. Which Google Docs accessibility tool will enable the school leader to convert the newsletter into multiple languages?",
+      "options": [
+        "Screen magnifier support",
+        "Translate document",
+        "Voice typing",
+        "Screen reader support"
+      ],
+      "original_answer": "Translate document",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Translate document"
+    },
+    {
+      "id": "l1-4",
+      "level": 1,
+      "number": 4,
+      "question": "An educator decides to create a newsletter that includes student images. The educator wants to take student pictures using the device's webcam and insert them directly into Google Docs. Which feature will allow them to do this?",
+      "options": [
+        "By URL",
+        "Google Photos",
+        "Google Drive",
+        "Camera"
+      ],
+      "original_answer": "Google Photos",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Camera",
+      "correction_reason": "웹캠으로 바로 촬영해 삽입하려면 Camera를 선택합니다."
+    },
+    {
+      "id": "l1-5",
+      "level": 1,
+      "number": 5,
+      "question": "A staff member decides to start using Google Drive to safely back up and organize files from their computer. What could the staff member do in Google Drive before uploading files to organize them efficiently?",
+      "options": [
+        "Go to settings to turn on Offline Access so files can be viewed offline.",
+        "Buy more storage in Google Drive to ensure the storage of all files.",
+        "Change the setting to convert uploads to Google Docs editor format.",
+        "Create Google Drive folders to upload files into folders."
+      ],
+      "original_answer": "Create Google Drive folders to upload files into folders.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Create Google Drive folders to upload files into folders."
+    },
+    {
+      "id": "l1-6",
+      "level": 1,
+      "number": 6,
+      "question": "An educator receives an email that needs to be actioned at a later date. How would they be automatically notified at a later time?",
+      "options": [
+        "Use the Snooze feature to be reminded at a later date.",
+        "Mark the email message as Unread.",
+        "Add a label to the email message called Reminders.",
+        "Forward the email to another colleague."
+      ],
+      "original_answer": "Add a label to the email message called Reminders.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Use the Snooze feature to be reminded at a later date.",
+      "correction_reason": "Snooze는 지정 시각에 메일을 다시 표시합니다. 라벨 자체는 알림을 예약하지 않습니다."
+    },
+    {
+      "id": "l1-7",
+      "level": 1,
+      "number": 7,
+      "question": "In a virtual study session, an educator has shared a question on the screen and wants to have all students write a response. Which Google Meet feature would allow the educator to check for understanding for all attendees?",
+      "options": [
+        "Chat",
+        "Unmute",
+        "Reaction",
+        "Screen Share"
+      ],
+      "original_answer": "Chat",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Chat"
+    },
+    {
+      "id": "l1-8",
+      "level": 1,
+      "number": 8,
+      "question": "Which Google Workspace for Education tool will allow an educator to deliver a virtual training with their colleagues?",
+      "options": [
+        "Gmail",
+        "Google Calendar",
+        "Google Forms",
+        "Google Meet"
+      ],
+      "original_answer": "Google Meet",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Google Meet"
+    },
+    {
+      "id": "l1-9",
+      "level": 1,
+      "number": 9,
+      "question": "An educator is preparing lesson materials for a diverse classroom that includes students with visual impairments who require accessibility features, students who speak other languages, and students who are using Chromebooks. They want to ensure that all students can access and understand the content using the Google tools. Which two methods should the educator use to successfully achieve this? (Choose two.)",
+      "options": [
+        "Advise students to use the ChromeVox built-in screen reader feature from within ChromeOS.",
+        "Use the Translate document feature in Google Docs to translate the doc into a different language.",
+        "Instruct students to use the Compact controls feature in Google Docs to simplify the user interface.",
+        "Grant students View access to the document so that they are able to make the changes necessary for their needs.",
+        "Advise students to turn on the Live Captions feature within ChromeOS."
+      ],
+      "original_answer": "Use the Translate document feature in Google Docs to translate the doc into a different language.\nGrant students View access to the document so that they are able to make the changes necessary for their needs.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Advise students to use the ChromeVox built-in screen reader feature from within ChromeOS.\nUse the Translate document feature in Google Docs to translate the doc into a different language.",
+      "correction_reason": "시각장애 학생에게 ChromeVox를, 다른 언어 사용자에게 문서 번역을 제공합니다. Viewer는 편집할 수 없습니다."
+    },
+    {
+      "id": "l1-10",
+      "level": 1,
+      "number": 10,
+      "question": "An education leader has provided staff with a collaborative document. A staff member realizes the information they entered is missing. What would be done to find and restore the missing information without disrupting other data?",
+      "options": [
+        "Click the undo arrow until the missing information reappears.",
+        "Click the Version history icon and restore to the original document.",
+        "From Version history, copy and paste the missing information back into the doc.",
+        "Click the Version history icon and find an earlier version with the missing information then restore."
+      ],
+      "original_answer": "Click the Version history icon and restore to the original document.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "From Version history, copy and paste the missing information back into the doc.",
+      "correction_reason": "다른 변경 사항을 보존하려면 이전 버전에서 누락된 내용만 복사해 현재 문서에 붙여넣습니다."
+    },
+    {
+      "id": "l1-11",
+      "level": 1,
+      "number": 11,
+      "question": "An educator wants to create a synchronous professional learning event for colleagues around the world. Which Google Calendar feature would allow them to do so?",
+      "options": [
+        "Color code the event to make it stand out.",
+        "Set Working hours and location.",
+        "Use the Search feature.",
+        "Add a Google Meet link from the Event screen."
+      ],
+      "original_answer": "Add a Google Meet link from the Event screen.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Add a Google Meet link from the Event screen."
+    },
+    {
+      "id": "l1-12",
+      "level": 1,
+      "number": 12,
+      "question": "How would an educator use Google Chat in their classroom?",
+      "options": [
+        "Navigate the Internet",
+        "Book appointment slots",
+        "Communicate with students",
+        "Create presentations"
+      ],
+      "original_answer": "Communicate with students",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Communicate with students"
+    },
+    {
+      "id": "l1-13",
+      "level": 1,
+      "number": 13,
+      "question": "Which Google Workspace for Education tool would an educator use to schedule due dates for class projects?",
+      "options": [
+        "Drawings",
+        "Google Meet",
+        "Google Chat",
+        "Calendar"
+      ],
+      "original_answer": "Calendar",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Calendar"
+    },
+    {
+      "id": "l1-14",
+      "level": 1,
+      "number": 14,
+      "question": "An educator wants to arrange folders in Google Drive to separate assessments and worksheets. Which organization method would allow the educator to quickly locate a test answer key?",
+      "options": [
+        "Color code the folders to make it easier when searching for the math test answer key.",
+        "Set the folders to allow anyone with the link for improved organization.",
+        "Move the documents into a single folder within Google Drive to improve organization.",
+        "Create separate Shared drives for assessments and worksheets for optimal organization."
+      ],
+      "original_answer": "Color code the folders to make it easier when searching for the math test answer key.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Color code the folders to make it easier when searching for the math test answer key."
+    },
+    {
+      "id": "l1-15",
+      "level": 1,
+      "number": 15,
+      "question": "An educator will begin hosting virtual study sessions and needs to show students how to be recognized when wanting to speak. What Google Meet feature will accomplish this?",
+      "options": [
+        "Unmute",
+        "Raise hand",
+        "Send a reaction",
+        "Share screen"
+      ],
+      "original_answer": "Raise hand",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Raise hand"
+    },
+    {
+      "id": "l1-16",
+      "level": 1,
+      "number": 16,
+      "question": "An educator is preparing for a conference and is expecting to receive numerous emails from the same sender regarding the same subject as they work together to prepare for the event. Which of the following features in Gmail will allow the educator to view these emails grouped together and displayed chronologically?",
+      "options": [
+        "Thread emails together using Conversation view.",
+        "Use Confidential mode to send information securely.",
+        "Attach files for the recipient to each email.",
+        "Adjust the display density to show more emails at once."
+      ],
+      "original_answer": "Thread emails together using Conversation view.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Thread emails together using Conversation view."
+    },
+    {
+      "id": "l1-17",
+      "level": 1,
+      "number": 17,
+      "question": "Which Google tool would enable an educator to collaborate, send images and text-based messages, and share resources in real time?",
+      "options": [
+        "Google Chat",
+        "Google Sites",
+        "Google Earth",
+        "Google Arts & Culture"
+      ],
+      "original_answer": "Google Chat",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Google Chat"
+    },
+    {
+      "id": "l1-18",
+      "level": 1,
+      "number": 18,
+      "question": "An educator completed a report and would like to approve their colleague's feedback and suggestions on the document. Which sharing permission should the educator assign?",
+      "options": [
+        "Viewer",
+        "Sharer",
+        "Commenter",
+        "Publisher"
+      ],
+      "original_answer": "Commenter",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Commenter"
+    },
+    {
+      "id": "l1-19",
+      "level": 1,
+      "number": 19,
+      "question": "An educator working on a Google Doc would like a colleague to help rewrite parts of the document. Which sharing permission should the educator assign to the document?",
+      "options": [
+        "Editor",
+        "Publisher",
+        "Sharer",
+        "Viewer"
+      ],
+      "original_answer": "Editor",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Editor"
+    },
+    {
+      "id": "l1-20",
+      "level": 1,
+      "number": 20,
+      "question": "An educator would like students to provide feedback on their fellow classmates' work. The educator also wants students to be able to revisit the feedback later to reflect on their learning. Which of the following Google tools will allow students to achieve both of these goals?",
+      "options": [
+        "Google Slides, when used in presentation mode",
+        "Google Docs, with commenting enabled",
+        "Google Sites, in published mode",
+        "Google Forms, with marks shown immediately after each submission"
+      ],
+      "original_answer": "Google Docs, with commenting enabled",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Google Docs, with commenting enabled"
+    },
+    {
+      "id": "l1-21",
+      "level": 1,
+      "number": 21,
+      "question": "An educator uses Search in Gmail to see results that include Google Drive files and emails shared by a certain email address. Which search criteria will accomplish this?",
+      "options": [
+        "To:",
+        "Size:",
+        "From:",
+        "Subject:"
+      ],
+      "original_answer": "From:",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "From:"
+    },
+    {
+      "id": "l1-22",
+      "level": 1,
+      "number": 22,
+      "question": "An educator is collaborating with another educator using Google Sheets. What is the benefit of using Google Sheets for collaboration?",
+      "options": [
+        "Both educators can email the file.",
+        "Both educators can edit in real time.",
+        "Both educators can print.",
+        "Both educators can download as PDF."
+      ],
+      "original_answer": "Both educators can edit in real time.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Both educators can edit in real time."
+    },
+    {
+      "id": "l1-23",
+      "level": 1,
+      "number": 23,
+      "question": "An educator wants documents to automatically convert to Google Docs when added to Google Drive. Which feature would accomplish this?",
+      "options": [
+        "Offline",
+        "Organize",
+        "Density",
+        "Uploads"
+      ],
+      "original_answer": "Density",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Uploads",
+      "correction_reason": "업로드한 파일의 자동 변환은 Uploads 설정에 해당합니다."
+    },
+    {
+      "id": "l1-24",
+      "level": 1,
+      "number": 24,
+      "question": "An educator wants to create a Google Site for guardian resources. They want a page on the navigation menu that when clicked leads directly to the district website. Which way of adding pages would allow this?",
+      "options": [
+        "New menu section",
+        "Full page embed",
+        "New page",
+        "New link"
+      ],
+      "original_answer": "New link",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "New link"
+    },
+    {
+      "id": "l1-25",
+      "level": 1,
+      "number": 25,
+      "question": "An education leader needs to communicate with faculty and staff in real time while minimizing classroom disruptions. The leader wants to allow staff members to see announcements quickly as well as share urgent questions or requests. How can the education leader achieve this?",
+      "options": [
+        "Create a Calendar event.",
+        "Use a faculty/staff Google Form.",
+        "Create a faculty/staff Google Chat.",
+        "Create a YouTube channel."
+      ],
+      "original_answer": "Create a faculty/staff Google Chat.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Create a faculty/staff Google Chat."
+    },
+    {
+      "id": "l1-26",
+      "level": 1,
+      "number": 26,
+      "question": "At the end of each month, staff submits a budget using Google Drive. To ensure data integrity, the manager needs to prevent staff from modifying their reports after submission. Which Google Drive share setting should staff apply once they submit their budget file that allows the manager to edit their access permissions?",
+      "options": [
+        "Viewer",
+        "Editor",
+        "Commenter",
+        "Transfer owner"
+      ],
+      "original_answer": "Viewer",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Transfer owner",
+      "correction_reason": "관리자가 소유권과 접근 권한을 통제하려면 소유권을 이전합니다. 조직 정책에 따른 제한은 별도로 확인해야 합니다."
+    },
+    {
+      "id": "l1-27",
+      "level": 1,
+      "number": 27,
+      "question": "A staff member would like to attach a collaborative meeting document for an upcoming event. Which Google Workspace for Education tool allows this functionality?",
+      "options": [
+        "Forms",
+        "YouTube",
+        "Calendar",
+        "Drawings"
+      ],
+      "original_answer": "Forms",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Calendar",
+      "correction_reason": "Calendar 일정에 공동 작업용 회의 문서를 첨부할 수 있습니다."
+    },
+    {
+      "id": "l1-28",
+      "level": 1,
+      "number": 28,
+      "question": "Which Google tool would an education leader use to host a sychronous, virtual training for guardians?",
+      "options": [
+        "Google Classroom",
+        "Google Groups",
+        "Google Meet",
+        "Google Sites"
+      ],
+      "original_answer": "Google Meet",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Google Meet"
+    },
+    {
+      "id": "l1-29",
+      "level": 1,
+      "number": 29,
+      "question": "An education leader is presenting using Google Slides. There are members of staff in the audience who have a hearing impairment. Which feature should be enabled to ensure that the staff members' needs are met during the presentation?",
+      "options": [
+        "Toggle captions on while in presentation mode.",
+        "Include speaker notes on each slide to refer to later.",
+        "Insert a voice recording on the slide.",
+        "Apply a theme to enhance the presentation."
+      ],
+      "original_answer": "Include speaker notes on each slide to refer to later.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Toggle captions on while in presentation mode.",
+      "correction_reason": "청각장애 참가자를 위해 발표 모드의 자막을 켭니다."
+    },
+    {
+      "id": "l1-30",
+      "level": 1,
+      "number": 30,
+      "question": "A staff member has created lesson plans and presentations in Google Drive for a series of upcoming trainings and would like to share them with a group of colleagues for feedback. How can the staff member share collaborative resources?",
+      "options": [
+        "Submit the resources to the Template Gallery in Google Drive.",
+        "Zip the resources in Google Drive and share by email.",
+        "Make a copy for each colleague with view access only.",
+        "Add all of the resources to a shared folder on Google Drive."
+      ],
+      "original_answer": "Add all of the resources to a shared folder on Google Drive.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Add all of the resources to a shared folder on Google Drive."
+    },
+    {
+      "id": "l1-31",
+      "level": 1,
+      "number": 31,
+      "question": "A staff member is planning to transition their physical materials into Google Drive file types to enhance organization and access. Which of the following features of Drive would help to achieve this goal?",
+      "options": [
+        "Print documents directly from the cloud without downloading them.",
+        "Uncheck the option to convert uploads to Google Docs editor format.",
+        "Automatically convert documents into different languages.",
+        "Store different files of varying formats in one location."
+      ],
+      "original_answer": "Uncheck the option to convert uploads to Google Docs editor format.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Store different files of varying formats in one location.",
+      "correction_reason": "제시된 보기 중 다양한 형식의 자료를 한곳에 저장하는 기능이 가장 적합합니다. 문제의 표현은 다소 모호합니다."
+    },
+    {
+      "id": "l1-32",
+      "level": 1,
+      "number": 32,
+      "question": "An educator is planning a video call with colleagues to discuss a future event. Which Google Calendar feature should the educator encourage colleagues to enable to ensure they don't forget to join the meeting?",
+      "options": [
+        "Create a Focus time.",
+        "Attach the agenda.",
+        "Use Time Insights.",
+        "Enable reminders and notifications."
+      ],
+      "original_answer": "Enable reminders and notifications.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Enable reminders and notifications."
+    },
+    {
+      "id": "l1-33",
+      "level": 1,
+      "number": 33,
+      "question": "An educator wants to add linkable thumbnails from other webpages to their webpage in Google Sites. What should they do to accomplish this?",
+      "options": [
+        "Embed the content by URL or code.",
+        "Hyperlink text to redirect to the new page.",
+        "Add New link as a page type.",
+        "Upload a PDF version of the content from the other pages."
+      ],
+      "original_answer": "Add New link as a page type.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Embed the content by URL or code.",
+      "correction_reason": "웹페이지 콘텐츠를 표시하려면 URL 또는 코드로 삽입합니다."
+    },
+    {
+      "id": "l1-34",
+      "level": 1,
+      "number": 34,
+      "question": "An educator has gathered a variety of learning materials that have been categorized for different student interest groups. The educator wants to create a personalized learning experience in Google Classroom that gives students access only to materials based on their interests. Which option should be used to organize these materials and share by category to specific students?",
+      "options": [
+        "Create multiple assignments, each with specific content based on different groups, then assign targeted students for each.",
+        "Share the materials directly with students from the Classroom folder and assign different collaboration permissions for each content.",
+        "Create an assignment and share with the entire class, then write a clear instruction showing how materials are categorized.",
+        "Create an assignment and share with the entire class, then Add a Private Comment for each student indicating the relevant resource."
+      ],
+      "original_answer": "Share the materials directly with students from the Classroom folder and assign different collaboration permissions for each content.",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Create multiple assignments, each with specific content based on different groups, then assign targeted students for each.",
+      "correction_reason": "관심 그룹별 과제를 만들고 해당 학생에게만 배정합니다."
+    },
+    {
+      "id": "l1-35",
+      "level": 1,
+      "number": 35,
+      "question": "An educator is presenting a lesson on Google Meet and wants to navigate other tabs in the same window to access additional resources while sharing their screen. They need to ensure students only see the intended material and not their entire screen activity. Which screen sharing feature would allow the educator to achieve this?",
+      "options": [
+        "Turn off camera",
+        "Share Entire screen",
+        "Share Window",
+        "Share Chrome Tab"
+      ],
+      "original_answer": "Share Chrome Tab",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Share Chrome Tab"
+    },
+    {
+      "id": "l1-36",
+      "level": 1,
+      "number": 36,
+      "question": "A staff member has several private Google Calendars. They want to make a public calendar where guardians can view the details of school events. Which Google Calendar feature would the staff member use?",
+      "options": [
+        "Create new calendar",
+        "Subscribe to calendar",
+        "Browse calendars of interest",
+        "Appointment schedule"
+      ],
+      "original_answer": "Create new calendar",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "document_only",
+      "answer": "Create new calendar"
+    },
+    {
+      "id": "l1-37",
+      "level": 1,
+      "number": 37,
+      "question": "Which Google for Education tool allows an educator to streamline instruction, collect student work, and provide feedback using a Rubric?",
+      "options": [
+        "Sheets",
+        "Slides",
+        "Forms",
+        "Classroom"
+      ],
+      "original_answer": "Forms",
+      "source": "GCE_Level1_Answers.docx",
+      "question_source": "GCE_Level1_Questions_and_Tasks.docx",
+      "verification": "editorial_suggestion",
+      "answer": "Classroom",
+      "correction_reason": "과제 수집과 루브릭 피드백은 Classroom 기능입니다."
+    },
+    {
+      "id": "l2-1",
+      "level": 2,
+      "number": 1,
+      "question": null,
+      "options": [],
+      "answer": "Pivot table, Column stats (※ 정답 2개)",
+      "original_answer": "Pivot table, Column stats (※ 정답 2개)",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-2",
+      "level": 2,
+      "number": 2,
+      "question": null,
+      "options": [],
+      "answer": "Originality reports",
+      "original_answer": "Originality reports",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-3",
+      "level": 2,
+      "number": 3,
+      "question": null,
+      "options": [],
+      "answer": "People and Date",
+      "original_answer": "People and Date",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-4",
+      "level": 2,
+      "number": 4,
+      "question": null,
+      "options": [],
+      "answer": "The educator could quickly join Google Meet from Docs to discuss project details., The guest speaker can start a meeting from Slides to give feedback on the project presentation. (※ 정답 2개)",
+      "original_answer": "The educator could quickly join Google Meet from Docs to discuss project details., The guest speaker can start a meeting from Slides to give feedback on the project presentation. (※ 정답 2개)",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-5",
+      "level": 2,
+      "number": 5,
+      "question": null,
+      "options": [],
+      "answer": "Extra help",
+      "original_answer": "Extra help",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-6",
+      "level": 2,
+      "number": 6,
+      "question": null,
+      "options": [],
+      "answer": "Embed a YouTube video directly onto the slides.",
+      "original_answer": "Embed a YouTube video directly onto the slides.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-7",
+      "level": 2,
+      "number": 7,
+      "question": null,
+      "options": [],
+      "answer": "Join by phone",
+      "original_answer": "Join by phone",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-8",
+      "level": 2,
+      "number": 8,
+      "question": null,
+      "options": [],
+      "answer": "Create a Quiz Assignment and click Grade importing.",
+      "original_answer": "Create a Quiz Assignment and click Grade importing.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-9",
+      "level": 2,
+      "number": 9,
+      "question": null,
+      "options": [],
+      "answer": "Create a Google Site and provide each student with a page to share their work.",
+      "original_answer": "Create a Google Site and provide each student with a page to share their work.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-10",
+      "level": 2,
+      "number": 10,
+      "question": null,
+      "options": [],
+      "answer": "Conditional Formatting",
+      "original_answer": "Conditional Formatting",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-11",
+      "level": 2,
+      "number": 11,
+      "question": null,
+      "options": [],
+      "answer": "Use Appointment schedule and send the URL link to guardians.",
+      "original_answer": "Use Appointment schedule and send the URL link to guardians.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-12",
+      "level": 2,
+      "number": 12,
+      "question": null,
+      "options": [],
+      "answer": "Create a document in Google Docs with meeting notes and attach the document to the Calendar invite for all attendees to view.",
+      "original_answer": "Create a document in Google Docs with meeting notes and attach the document to the Calendar invite for all attendees to view.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-13",
+      "level": 2,
+      "number": 13,
+      "question": null,
+      "options": [],
+      "answer": "Use the Grant access to your account feature to delegate access.",
+      "original_answer": "Use the Grant access to your account feature to delegate access.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-14",
+      "level": 2,
+      "number": 14,
+      "question": null,
+      "options": [],
+      "answer": "Create a class in Google Classroom and add all educators as co-teachers.",
+      "original_answer": "Create a class in Google Classroom and add all educators as co-teachers.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-15",
+      "level": 2,
+      "number": 15,
+      "question": null,
+      "options": [],
+      "answer": "Paragraph styles",
+      "original_answer": "Paragraph styles",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-16",
+      "level": 2,
+      "number": 16,
+      "question": null,
+      "options": [],
+      "answer": "Use the insert menu and select to link text or objects., Right-click on highlighted text and select link. (※ 정답 2개)",
+      "original_answer": "Use the insert menu and select to link text or objects., Right-click on highlighted text and select link. (※ 정답 2개)",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-17",
+      "level": 2,
+      "number": 17,
+      "question": null,
+      "options": [],
+      "answer": "Translate Document",
+      "original_answer": "Translate Document",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-18",
+      "level": 2,
+      "number": 18,
+      "question": null,
+      "options": [],
+      "answer": "Turn on link sharing and copy link for the team.",
+      "original_answer": "Turn on link sharing and copy link for the team.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-19",
+      "level": 2,
+      "number": 19,
+      "question": null,
+      "options": [],
+      "answer": "Search for an add-on from the Google Workspace Marketplace. (※ 음성 피드백을 위한 확장 프로그램 사용)",
+      "original_answer": "Search for an add-on from the Google Workspace Marketplace. (※ 음성 피드백을 위한 확장 프로그램 사용)",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-20",
+      "level": 2,
+      "number": 20,
+      "question": null,
+      "options": [],
+      "answer": "Have students hyperlink Slides to each other.",
+      "original_answer": "Have students hyperlink Slides to each other.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-21",
+      "level": 2,
+      "number": 21,
+      "question": null,
+      "options": [],
+      "answer": "Published site: Public, Documents: Publish to the web",
+      "original_answer": "Published site: Public, Documents: Publish to the web",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-22",
+      "level": 2,
+      "number": 22,
+      "question": null,
+      "options": [],
+      "answer": "Schedule all events and invite participants in Google Calendar with a Google Meet.",
+      "original_answer": "Schedule all events and invite participants in Google Calendar with a Google Meet.",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-23",
+      "level": 2,
+      "number": 23,
+      "question": null,
+      "options": [],
+      "answer": "Find and replace",
+      "original_answer": "Find and replace",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-24",
+      "level": 2,
+      "number": 24,
+      "question": null,
+      "options": [],
+      "answer": "Publish",
+      "original_answer": "Publish",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    },
+    {
+      "id": "l2-25",
+      "level": 2,
+      "number": 25,
+      "question": null,
+      "options": [],
+      "answer": "Create a simple table of tools and add hyperlinks in a Google Docs table to guide students to explore a concept., Apply Flipped Classroom model by adding videos to Forms and ask questions about specific content. (※ 정답 2개)",
+      "original_answer": "Create a simple table of tools and add hyperlinks in a Google Docs table to guide students to explore a concept., Apply Flipped Classroom model by adding videos to Forms and ask questions about specific content. (※ 정답 2개)",
+      "source": "GCE_Level2_Answers_Corrected.docx",
+      "verification": "answer_only"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Create a form with Google Forms",
+      "steps": [
+        "In this task, you need to create a form by performing the steps that follow.\n\n1. Create a Google Forms blank file named Our Solar System and give the form the title of Our Solar System.\n2. Configure the form settings to collect verified email addresses.\n3. Add the Short answer question type and enter the question as Student Name to the form Our Solar System."
+      ]
+    },
+    {
+      "id": "task-2",
+      "title": "Add questions to the form",
+      "steps": [
+        "In this task, you need to add questions to the form by performing the steps that follow.\n\n1. An image named Solar System.png is available in your Google Drive. Attach the Solar System.png image to the form Our Solar System after the Student Name question. Enter the image title as Solar System.\n2. Select the Short answer question type and enter the question as How many moons does Mercury have?.\n3. Select the Multiple choice question type and enter the question as What is the third planet from the sun? with Option 1 specified as Mercury, Option 2 specified as Venus, Option 3 specified as Earth and Option 4 specified as Mars.\n4. Select the Dropdown question type and enter the question as Which is the largest planet? with Option 1 specified as Jupiter, Option 2 specified as [Saturn], Option 3 specified as Uranus, and Option 4 specified as Neptune."
+      ]
+    },
+    {
+      "id": "task-3",
+      "title": "Configure document settings",
+      "steps": [
+        "In this task, you configure the Google Docs document to ensure the following:\n\n1. Editors cannot change permissions and share the document.\n2. Viewers and commenters cannot see the option to download, print and copy."
+      ]
+    }
+  ]
+}

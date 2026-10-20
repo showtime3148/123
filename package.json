@@ -1,0 +1,11 @@
+{
+  "name": "gce-study-desk",
+  "private": true,
+  "scripts": {
+    "vendor-ocr": "node scripts/vendor-ocr.cjs"
+  },
+  "devDependencies": {
+    "@tesseract.js-data/eng": "1.0.0",
+    "tesseract.js": "6.0.1"
+  }
+}

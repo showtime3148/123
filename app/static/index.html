@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GCE Study Desk</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/hosting.css">
+  <script defer src="/vendor/ocr/tesseract.min.js"></script>
+  <script defer src="/static/browser-ocr.js"></script>
+  <script defer src="/static/app.js"></script>
+</head>
+<body>
+  <header><a class="brand" href="/">G<span>CE</span> <small>STUDY DESK</small></a><div class="account-controls"><span id="sharedStatus" class="note" hidden></span><button id="settingsButton" class="secondary">API 설정 <span id="keyStatus">미연결</span></button><button id="logout" class="secondary" hidden>로그아웃</button></div></header>
+  <main>
+    <div class="intro"><div class="eyebrow">GOOGLE CERTIFIED EDUCATOR</div><h1>한 문제씩, 빠르게 이해하기.</h1><p>화면을 캡처하면 내 자료에서 먼저 찾고, 새로운 문제는 웹에서 확인합니다.</p></div>
+    <p id="deadline" class="note" hidden></p>
+    <div class="stats"><span><b>37</b> Level 1 문제</span><span><b>25</b> Level 2 정답 참고</span><span><b>3</b> 실습 과제</span><span class="local">● 문서 검색 · OCR 무료</span></div>
+    <div class="workspace">
+      <section class="panel">
+        <div class="panel-title"><span class="step">01</span><h2>문제 가져오기</h2></div>
+        <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="문제 이미지 선택">
+          <div class="upload-icon" aria-hidden="true">↑</div><strong>문제 화면을 여기에 놓으세요</strong>
+          <p>클릭해서 업로드 · Ctrl / ⌘ + V로 붙여넣기</p><small>PNG, JPG, WebP · 최대 8MB · 영어 OCR</small>
+        </div>
+        <input id="file" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+        <div class="capture-row"><button id="capture" class="secondary">화면 캡처</button><span>선택한 화면을 한 번만 촬영합니다</span></div>
+        <img id="preview" alt="업로드한 문제 화면" hidden>
+        <label for="question">인식된 문제 <small>직접 붙여넣거나 수정할 수 있어요</small></label>
+        <textarea id="question" placeholder="문제와 보기를 입력하세요. 스크린샷을 올리면 글자를 자동으로 읽습니다."></textarea>
+        <div class="actions"><button id="search" class="primary">답 찾기 <span>↗</span></button><button id="clear" class="secondary">초기화</button></div>
+        <p class="note">확실한 문서 일치가 없으면 웹 검색으로 이어집니다. 웹 검색 시 문제 텍스트와 관련 문서 일부가 OpenAI로 전송되며 API 요금이 발생합니다.</p>
+      </section>
+      <section class="panel result-panel" aria-live="polite">
+        <div class="panel-title"><span class="step">02</span><h2>답과 근거 확인</h2><span id="resultBadge" class="badge">준비됨</span></div>
+        <div id="status" role="status"></div>
+        <div id="result"><div class="empty"><div class="empty-symbol">⌕</div><h3>첫 문제를 가져와 주세요</h3><p>문서 일치도, 원본 답안, 수정 제안과<br>웹 검색 출처를 함께 확인할 수 있습니다.</p></div></div>
+      </section>
+    </div>
+    <section class="library panel">
+      <div class="panel-title"><h2>내 학습 자료</h2><small>첨부한 문서 3개 기반</small></div>
+      <p class="note">Level 2는 문제 본문이 없어 자동 정답 매칭에 사용하지 않습니다. 수정 제안은 문서 검토 결과이며 웹 검증 완료를 뜻하지 않습니다.</p>
+      <div class="tabs"><button data-tab="1" class="active">Level 1 문제</button><button data-tab="2">Level 2 정답 참고</button><button data-tab="tasks">실습 과제</button></div>
+      <div id="library"></div>
+    </section>
+    <footer>GCE Study Desk · 개인 학습 자료 검색 도구</footer>
+  </main>
+  <dialog id="settings">
+    <form id="settingsForm">
+      <div class="panel-title"><h2>OpenAI 연결</h2><button type="button" id="closeSettings" class="icon" aria-label="닫기">×</button></div>
+      <p>문서에서 찾지 못한 문제를 웹에서 검색하거나, 기존 답을 다시 검증할 때 사용합니다.</p>
+      <label for="apiKey">API 키</label><input id="apiKey" type="password" autocomplete="off" placeholder="sk-…">
+      <p class="note">키는 이 페이지 메모리에만 보관하고 요청할 때 앱 서버를 통해 OpenAI로 전달합니다. 새로고침하면 지워집니다. ChatGPT 구독과 API 결제는 별도입니다.</p>
+      <label for="model">모델</label><input id="model" value="gpt-4.1-mini" pattern="[a-zA-Z0-9._-]{1,80}" required>
+      <p class="note">Responses API의 웹 검색을 지원하는 모델을 사용하세요.</p>
+      <div class="actions"><button type="submit" class="primary">설정 저장</button><button type="button" id="forgetKey" class="secondary">키 지우기</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

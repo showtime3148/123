@@ -1,0 +1,17 @@
+.git
+.venv
+node_modules
+**/__pycache__
+*.pyc
+*.zip
+*.docx
+*.log
+.env
+.env.*
+state
+*.sqlite3*
+Dockerfile
+render.yaml
+DEPLOY_RENDER.md
+tests
+scripts

@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: gce-study-desk
+    runtime: docker
+    plan: starter
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    disk:
+      name: gce-state
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: GCE_PUBLIC
+        value: "1"
+      - key: GCE_KEY_MODE
+        value: shared
+      - key: GCE_ACCESS_PASSWORD
+        sync: false
+      - key: GCE_SESSION_SECRET
+        generateValue: true
+      - key: GCE_OPENAI_API_KEY
+        sync: false
+      - key: GCE_DAILY_WEB_LIMIT
+        value: "100"
+      - key: GCE_MODEL
+        value: gpt-4.1-mini
+      - key: GCE_STATE_DIR
+        value: /var/data/gce
